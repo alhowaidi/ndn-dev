@@ -93,9 +93,9 @@ main(int argc, char** argv)
   }
 
   if (prefix.empty()) {
-    std::cerr << "Usage: " << programName << " [options] ndn:/name" << std::endl;
-    std::cerr << visibleDesc;
-    return 2;
+    //std::cerr << "Usage: " << programName << " [options] ndn:/name" << std::endl;
+    //std::cerr << visibleDesc;
+    //return 2;
   }
 
   if (maxChunkSize < 1 || maxChunkSize > MAX_NDN_PACKET_SIZE) {

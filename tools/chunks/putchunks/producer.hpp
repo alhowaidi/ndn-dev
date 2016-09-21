@@ -75,7 +75,7 @@ private:
    * @return Number of data packets contained in the store after the operation
    */
   void
-  populateStore(std::istream& is);
+  populateStore(std::string is);
 
   void
   onRegisterFailed(const Name& prefix, const std::string& reason);
